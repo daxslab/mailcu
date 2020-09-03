@@ -18,14 +18,8 @@ return [
         ],
     ],
     'modules' => [
-        'website' => [
-            'class' => 'daxslab\website\Module',
-            'token' => '',
-            'cacheThumbnails' => false,
-        ],
         'user' => [
             'class' => 'Da\User\Module',
-            'administrators' => ['daxslab'],
         ],
     ]
 ];
