@@ -21,6 +21,7 @@ if (Yii::$app->user->isGuest) {
 
     if(Yii::$app->user->can('admin')){
         $menuItems[] = ['label' => Yii::t('app', 'Users'), 'url' => ['/user/admin/index']];
+        $menuItems[] = ['label' => Yii::t('app', 'Aliases'), 'url' => ['/alias/index']];
     }
 
     $menuItems[] = [

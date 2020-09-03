@@ -11,11 +11,6 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
-        'website' => [
-            'controllerNamespace' => 'daxslab\website\controllers\backend',
-        ],
-    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
