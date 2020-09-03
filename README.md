@@ -7,6 +7,12 @@ INSTALLATION
 ------------
 
 ```
+git clone https://github.com/daxslab/mailcu
+
+docker-compose up
+
+docker-compose exec backend bash
+
 composer install
 
 ./init
